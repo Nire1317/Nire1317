@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        .greet {
+            background: #ff4d4d;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            position: fixed; /* Fixed at the top */
+            top: 20px; /* Distance from the top */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%; /* Make it responsive */
+            max-width: 600px; /* Limit maximum width */
+            z-index: 1000; /* Ensure it stays above other content */
+        }
+        
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            font-size: 2em;
+            margin: 0; /* Remove default margin */
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%; /* Ensure it takes full width */
+            margin-top: 120px; /* Add margin to avoid overlap with .greet */
+        }
+
+        .envelopes-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .envelope {
+            position: relative;
+            width: 120px;
+            height: 80px;
+            background-color: #ff4d4d;
+            transform: rotate(-45deg);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+        }
+
+        .envelope:before {
+            content: '';
+            position: absolute;
+            top: -35px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-bottom: 35px solid #ff4d4d;
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            z-index: 1000;
+        }
+
+        .popup img, .popup video {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .popup button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .envelope {
+                width: 100px;
+                height: 70px;
+            }
+
+            .envelope:before {
+                top: -30px;
+                border-left: 50px solid transparent;
+                border-right: 50px solid transparent;
+                border-bottom: 30px solid #ff4d4d;
+            }
+
+            .envelopes-container {
+                gap: 15px; /* Reduce gap for smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .envelope {
+                width: 80px;
+                height: 60px;
+            }
+
+            .envelope:before {
+                top: -25px;
+                border-left: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-bottom: 25px solid #ff4d4d;
+            }
+
+            .popup {
+                padding: 15px; /* Reduce padding for smaller screens */
+            }
+
+            .popup h2 {
+                font-size: 1.2em; /* Adjust font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+  <div class="greet"><h1>Happy Valentine's Pachot!!</h1></div>
+    <div id="container">
+            <div class="envelopes-container">
+                <div class="envelope" onclick="showPopup('popup1')"></div>
+                <div class="envelope" onclick="showPopup('popup2')"></div>
+                <div class="envelope" onclick="showPopup('popup3')"></div>
+            </div>
+
+            <div id="popup1" class="popup">
+                <h2>Happy Valentine's Day pachot!!</h2>
+                <img src="pachot.jpg" alt="Valentine's Picture">
+                <p>Valentine's Day is a special day to celebrate love. It is a day to show your love and appreciation to your loved ones.
+                  Whether you are in a relationship or single, Valentine's Day is a day to celebrate love in all its forms. So, 
+                  take this day to show your love and appreciation to the people who mean the most to you. Happy Valentine's Day!</p>
+                <audio id="background-music" autoplay loop>
+                    <source src="blue.mp3" type="audio/mpeg">
+                </audio>
+                <button onclick="closePopup()">Close</button>
+            </div>
+
+            <div id="popup2" class="popup">
+                <h2>Apaka ganda namang Flower to!!</h2>
+                <video controls>
+                    <source src="1.mp4" type="video/mp4">
+                </video>
+                <button onclick="closePopup()">Close</button>
+            </div>
+
+            <div id="popup3" class="popup">
+                <h2>HELLO MY FRIENDDD!!!!!!!</h2>
+                <video controls>
+                    <source src="ER.mp4" type="video/mp4">
+                </video>
+                <button onclick="closePopup()">Close</button>
+            </div>
+
+            <div class="overlay" id="overlay"></div>
+      </div>
+  </body>
+    <script>
+        function showPopup(popupId) {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById(popupId).style.display = 'block';
+            if (popupId === 'popup1') {
+                document.getElementById('background-music').play();
+            }
+        }
+
+        function closePopup() {
+            document.getElementById('overlay').style.display = 'none';
+            document.querySelectorAll('.popup').forEach(popup => {
+                popup.style.display = 'none';
+            });
+            document.getElementById('background-music').pause();
+        }
+    </script>
+</body>
+</html>
