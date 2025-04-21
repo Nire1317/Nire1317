@@ -1,4 +1,4 @@
-# 👋 Hello there! I'm Nire
+# 👋 Hello there! I'm Nire!!
 
 🧑🏽‍💻👋🏽 A passionate and motivated Programmer with hands-on experience in mobile and web development. I’m always eager to explore new technologies and continuously sharpen my skills to become a future software engineer.
 
@@ -13,10 +13,10 @@
 
 ## 🛠️ Tech Stack
 
-- **Languages:** HTML, CSS, JavaScript, PHP, MySQL  
-- **Frameworks & Libraries:** React, React Native, Tailwind CSS, Bootstrap, Node.js, Express  
-- **Tools & Platforms:** Git, GitHub, Postman, Figma, Notion, Jira  
-- **Others:** API Integration, RESTful APIs, Manual QA Testing, Responsive Design  
+- Languages: HTML, CSS, JavaScript, PHP, MySQL, MongoDB
+- Frameworks & Libraries: React, React Native, Redux, Tailwind CSS, Bootstrap, Node.js, Express
+- Tools & Platforms: Git, GitHub, Postman, Figma, Notion, Jira
+- Others: API Integration, RESTful APIs, Manual QA Testing, Responsive Design, Troubleshooting & Technical Support
 
 ## 📫 Connect With Me
 
