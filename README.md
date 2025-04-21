@@ -1,16 +1,30 @@
-## Hi there 👋
+# 👋 Hello there! I'm Nire
 
-<!--
-**Nire1317/Nire1317** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🧑🏽‍💻👋🏽 A passionate and motivated Programmer with hands-on experience in mobile and web development. I’m always eager to explore new technologies and continuously sharpen my skills to become a future software engineer.
 
-Here are some ideas to get you started:
+## 🚀 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📱 Mobile App Developer using **React Native**  
+- 🌐 Web Developer (Front-end & Back-end)  
+- 🧠 Currently learning more about **Node.js**, **Sequelize**, and **MongoDB**  
+- ⚙️ Enjoys debugging, troubleshooting, and improving UI/UX  
+- 💼 Interested in combining IT with **business and accounting** ideas for app development  
+- 📍 Based in the Philippines
+
+## 🛠️ Tech Stack
+
+- **Languages:** HTML, CSS, JavaScript, PHP, MySQL  
+- **Frameworks & Libraries:** React, React Native, Tailwind CSS, Bootstrap, Node.js, Express  
+- **Tools & Platforms:** Git, GitHub, Postman, Figma, Notion, Jira  
+- **Others:** API Integration, RESTful APIs, Manual QA Testing, Responsive Design  
+
+## 📫 Connect With Me
+
+Feel free to reach out or collaborate on projects!
+
+- 📧 Email: Erintuzon@gmail.com  
+- 🗂 Portfolio: (Coming soon!)
+
+---
+
+Thanks for visiting my profile! 😄
