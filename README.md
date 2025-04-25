@@ -22,7 +22,7 @@
 
 Feel free to reach out or collaborate on projects!
 
-- 📧 Email: Erintuzon@gmail.com  
+- 📧 Email: Erintuzon01@gmail.com  
 - 🗂 Portfolio: (Coming soon!)
 
 ---
