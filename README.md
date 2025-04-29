@@ -1,6 +1,6 @@
 # 👋 Hello there! I'm Nire!!
 
-🧑🏽‍💻👋🏽 A passionate and motivated Programmer with hands-on experience in mobile and web development. I’m always eager to explore new technologies and continuously sharpen my skills to become a future software engineer.
+🧑🏽‍💻👋🏽 A passionate and motivated Software Developer with hands-on experience in mobile and web development. I’m always eager to explore new technologies and continuously sharpen my skills to become a future software engineer.
 
 ## 🚀 About Me
 
