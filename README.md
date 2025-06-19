@@ -17,7 +17,7 @@ Feel free to reach out or collaborate on projects!
 
 - 📧 Email: Erintuzon01@gmail.com  
 - 🗂 linkedIn: www.linkedin.com/in/
-erin-tuzon-541038343
+erin-tuzon
 
 
 ---
